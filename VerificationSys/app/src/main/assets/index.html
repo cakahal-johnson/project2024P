@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Generation</title>
+    <link rel="stylesheet" href="verify.css">
+</head>
+<body>
+<div class="container">
+    <h1>Certificate Generation</h1>
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="text" id="program" placeholder="Enter Program">
+    <input type="text" id="institution" placeholder="Enter Institution">
+    <input type="text" id="matnum" placeholder="Enter Matriculation Number">
+
+    <button onclick="generateCertificate()">Generate Certificate</button>
+    <div id="certificateContainer" style="display:none; padding: 20px; border: 1px solid #000; border-radius: 20px; margin-top: 20px;">
+        <h2 class="letter-spacing: 1em">Certificate of Achievement</h2>
+        <p>This is to certify that</p>
+        <h3 id="certName"></h3>
+        <p>has successfully completed the program</p>
+        <h3 id="certProgram"></h3>
+        <p>at</p>
+        <h3 id="certInstitution"></h3>
+        <p>on this day,</p>
+        <h3 id="certDate"></h3>
+        <span>Matriculation Number: </span>
+        <p style="color: red; font-weight:bolder;" id="matnumd"></p>
+        <p>Authorized Signature: ____________</p>
+    </div>
+<!--    <button id="emailBtn" onclick="sendCertificateByEmail()" style="display:none;">Send Certificate by Email</button>-->
+    <button id="downloadBtn" onclick="downloadCertificate()" style="display:none;">Download Certificate</button>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

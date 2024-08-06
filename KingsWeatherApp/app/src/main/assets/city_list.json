@@ -1,0 +1,82 @@
+[
+  {
+    "id": 2152274,
+    "name": "Queensland",
+    "country": "AU"
+  },
+  {
+    "id": 2172797,
+    "name": "Cairns",
+    "country": "AU"
+  },
+  {
+    "id": 2174003,
+    "name": "Brisbane",
+    "country": "AU"
+  },
+  {
+    "id": 2177091,
+    "name": "Canberra",
+    "country": "AU"
+  },
+  {
+    "id": 2147714,
+    "name": "Sydney",
+    "country": "AU"
+  },
+  {
+    "id": 2158177,
+    "name": "Melbourne",
+    "country": "AU"
+  },
+  {
+    "id": 2063523,
+    "name": "Perth",
+    "country": "AU"
+  },
+  {
+    "id": 2078025,
+    "name": "Adelaide",
+    "country": "AU"
+  },
+  {
+    "id": 2163355,
+    "name": "Hobart",
+    "country": "AU"
+  },
+  {
+    "id": 2169535,
+    "name": "Darwin",
+    "country": "AU"
+  },
+  {
+    "id": 5056033,
+    "name": "London",
+    "country": "US"
+  },
+  {
+    "id": 1275004,
+    "name": "Kolkata",
+    "country": "IN"
+  },
+  {
+    "id": 108410,
+    "name": "Riyadh",
+    "country": "SA"
+  },
+  {
+    "id": 292968,
+    "name": "Abu Dhabi",
+    "country": "AE"
+  },
+  {
+    "id": 5128638,
+    "name": "New York",
+    "country": "US"
+  },
+  {
+    "id": 1850147,
+    "name": "Tokyo",
+    "country": "JP"
+  }
+]

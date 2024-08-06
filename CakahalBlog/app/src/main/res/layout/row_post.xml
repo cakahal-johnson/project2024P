@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="@color/white"
+    android:padding="5dp"
+    >
+
+    <ImageButton
+        android:id="@+id/moreBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        app:tint="@color/black"
+        android:src="@drawable/ic_next"
+        />
+
+<!--    Post Title-->
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toStartOf="@id/moreBtn"
+        android:text="Title Post"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+<!--    Author, Time, Date-->
+
+    <TextView
+        android:id="@+id/publishInfoTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleTv"
+        android:layout_toStartOf="@id/moreBtn"
+        android:text="By Cakahal Johnson October 1, 2022"
+        android:textColor="@color/gray1"/>
+
+    <ImageView
+        android:id="@+id/imageIv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/publishInfoTv"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:adjustViewBounds="true"
+        android:background="@color/gray2"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_image_bk"
+        />
+
+<!--    Post Description-->
+
+    <TextView
+        android:id="@+id/descriptionTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/publishInfoTv"
+        android:layout_marginTop="5dp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:text="The description of the post. we will just show four lines from the post.
+        The full description will be shown on next page. When User click this post it will show the description "
+        android:textColor="@color/black"
+        android:layout_toStartOf="@id/moreBtn"
+        android:layout_toEndOf="@id/imageIv"/>
+
+
+</RelativeLayout>

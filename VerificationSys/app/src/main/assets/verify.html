@@ -1,0 +1,48 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Certificate Verification</title>-->
+<!--    <link rel="stylesheet" href="verify.css">-->
+<!--</head>-->
+<!--<body>-->
+<!--<div class="container">-->
+<!--    <h1>Certificate Verification</h1>-->
+<!--    <input type="file" id="certificateInput" accept=".html">-->
+<!--    <button onclick="verifyCertificate()">Verify</button>-->
+<!--    <button><a href="index2.html">Try Matriculation Number </a></button>-->
+<!--    <p id="verificationResult"></p>-->
+<!--</div>-->
+<!--<script src="verify.js"></script>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate and Student Verification</title>
+    <link rel="stylesheet" href="verify.css">
+</head>
+<body>
+<div class="container">
+    <h1>Certificate and Student Verification</h1>
+
+    <div class="verification-section">
+        <h2>Verify Certificate</h2>
+        <input type="file" id="certificateInput" accept=".html">
+        <button onclick="verifyCertificate()">Verify Certificate</button>
+        <p id="certificateVerificationResult"></p>
+    </div>
+
+    <div class="verification-section">
+        <h2>Verify Student</h2>
+        <input type="text" id="matricNumberInput" placeholder="Enter Matriculation Number">
+        <button onclick="verifyStudent()">Verify Student</button>
+        <p id="studentVerificationResult"></p>
+    </div>
+</div>
+<script src="verify.js"></script>
+</body>
+</html>

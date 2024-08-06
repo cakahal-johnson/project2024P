@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Task3</string>
+    <string name="dice_roll_result">Dice roll result</string>
+    <string name="roll_dice">Roll dice</string>
+    <string name="clear_results">Clear results</string>
+    <string name="number_of_dice">Number of dice</string>
+    <string name="total_rolls_0">Total rolls</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:background="#CDA6A6"
+    >
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/examName"
+        android:textSize="16sp"
+        android:text="First Exam"
+        android:layout_marginStart="20dp"
+        android:textColor="#000"
+        android:layout_marginEnd="20dp"
+        android:maxLines="1"
+        />
+
+    <ImageView
+        android:id="@+id/examPic"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_below="@id/examName"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/ic_baseline_calendar_month_24" />
+
+    <TextView
+        android:id="@+id/examDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/examName"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@id/examPic"
+        android:gravity="center"
+        android:text="August 02, 2023"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:id="@+id/examPic2"
+        android:src="@drawable/ic_baseline_library_books_24"
+        android:layout_below="@id/examDate"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="7dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/examMessage"
+        android:text="Best Of Luck"
+        android:layout_below="@+id/examDate"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/border2"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignParentBottom="true"
+        android:background="#808080"/>
+
+</RelativeLayout>

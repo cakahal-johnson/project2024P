@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+   android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/whatsapp_image_2022_01_15_at_11_54_55_pm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <TextView
+
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Welcome"
+        android:textColor="#50c878"
+        android:textSize="25sp" />
+
+
+    <TextView
+
+        android:id="@+id/text_view_user_full_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="-34dp"
+        android:textColor="#50c878"
+        android:textSize="25sp"
+        tools:text="Mr Fullname User" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:layout_marginTop="15dp"
+        android:textSize="12sp"
+        android:id="@+id/text_view_email_address"
+        tools:text="My Feedback"
+
+        android:background="#50c878"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:id="@+id/text_view_phone"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="-48dp"
+            android:background="#50c878"
+            android:textSize="15sp"
+            tools:text="Username" />
+
+
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+      android:background="#50c878"
+    android:layout_marginTop="10dp"
+    android:text="Collect My Waste"
+    android:id="@+id/collect_My_waste"
+    android:textSize="12sp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="190dp"
+            android:background="#50c878"
+            android:id="@+id/CoinsCollectedbutton"
+            android:layout_marginTop="-45dp"
+            android:text="Coins Collected"/>
+    </LinearLayout>
+
+
+
+</ScrollView>

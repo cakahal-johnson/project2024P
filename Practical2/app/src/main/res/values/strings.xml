@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practical2</string>
+    <string name="dice_roll_result">Dice Roll Result</string>
+    <string name="roll_dice">Roll Dice</string>
+    <string name="clear_results">Clear Results</string>
+    <string name="number_of_dice">Number of Dice</string>
+    <string name="total_rolls_0">Total Rolls: 0</string>
+</resources>

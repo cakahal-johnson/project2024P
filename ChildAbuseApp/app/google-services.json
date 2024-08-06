@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "478855476930",
+    "project_id": "crudapp-22a0c",
+    "storage_bucket": "crudapp-22a0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478855476930:android:0657cb400eaa1f4cdd2d5b",
+        "android_client_info": {
+          "package_name": "com.example.childabuseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP-39br1lO92ATk4nY79lldxTpw6A_ZgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

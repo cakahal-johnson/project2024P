@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="20dp"
+    android:orientation="vertical"
+    >
+
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:src="@drawable/imgg"
+               android:id="@+id/imageView"
+               android:scaleType="center"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:text=""
+               android:id="@+id/msg"
+               android:textColor="#ffff0000"
+               />
+
+
+               <EditText
+                   android:id="@+id/title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="Blog Title"
+                   android:minHeight="48dp" />
+
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="200dp"
+                   android:hint="Blog Body"
+                   android:id="@+id/body"/>
+
+               <Button
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/submit"
+                   android:layout_gravity="center"
+                   android:text="submit"/>
+
+
+
+</LinearLayout>
